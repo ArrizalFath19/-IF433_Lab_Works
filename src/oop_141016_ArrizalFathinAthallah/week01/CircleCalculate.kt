@@ -1,6 +1,6 @@
 package oop_141016_ArrizalFathinAthallah.week01
 
-fun main(args: Array<String>) {
+fun main() {
     // Variable definition
     val radius = 7.0
     val pi = 3.14
