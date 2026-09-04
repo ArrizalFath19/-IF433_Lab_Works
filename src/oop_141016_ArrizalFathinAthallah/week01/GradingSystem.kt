@@ -1,7 +1,5 @@
 package oop_141016_ArrizalFathinAthallah.week01
 
-package oop_141016_ArrizalFathinAthallah.week01
-
 fun main(){
     val name = "John Thor"
     val score = 80
