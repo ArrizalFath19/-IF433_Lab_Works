@@ -12,7 +12,7 @@ fun main() {
     val borrower = scanner.nextLine()
 
     print("Masukan Lama Peminjaman: ")
-    val loanDuration = scanner.nextInt()
+    var loanDuration = scanner.nextInt()
 
     if (loanDuration < 0) {
         loanDuration = 1

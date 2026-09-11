@@ -7,8 +7,9 @@ class Loan(
 ) {
     fun calculateFine(): Int {
         return if (loanDuration > 3) {
-            (loanDuration - 3 ) * 2000
-        } else {]
+            (loanDuration - 3) * 2000
+        } else {
             0
+        }
     }
 }
