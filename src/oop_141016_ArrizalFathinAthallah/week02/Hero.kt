@@ -1,6 +1,6 @@
 package oop_141016_ArrizalFathinAthallah.week02
 
-class hero(
+class Hero(
     val name : String,
     var hp : Int = 100,
     val baseDamage : Int
