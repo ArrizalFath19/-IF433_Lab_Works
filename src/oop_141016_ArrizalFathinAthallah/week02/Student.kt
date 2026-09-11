@@ -1,9 +1,10 @@
 package oop_141016_ArrizalFathinAthallah.week02
 
 class Student (
-    val name : String,
-    val nim : String,
-    val major : String,
+    var name : String,
+    var nim : String,
+    var major : String,
+    var gpa : Double, = 0.0
 ){
     // Body kosong
 }
