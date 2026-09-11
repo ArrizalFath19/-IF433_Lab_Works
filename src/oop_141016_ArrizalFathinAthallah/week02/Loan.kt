@@ -1,0 +1,14 @@
+package oop_141016_ArrizalFathinAthallah.week02
+
+class Loan(
+    val bookTittle: String,
+    val borrower: String,
+    val loanDuration: Int = 1
+) {
+    fun calculateFine(): Int {
+        return if (loanDuration > 3) {
+            (loanDuration - 3 ) * 2000
+        } else {]
+            0
+    }
+}
