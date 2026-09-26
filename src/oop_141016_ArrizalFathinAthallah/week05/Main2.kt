@@ -8,5 +8,10 @@ fun main() {
 
     for (payment in payments) {
         payment.processPayment(75000.0)
+
+        if(payment is Ewallet) {
+            payment.topUp(50000.0)
+            payment.processPayment(75000.0)
+        }
     }
 }
