@@ -3,8 +3,8 @@ package oop_141016_ArrizalFathinAthallah.week06
 class Smartphone : Camera, Phone {
 
     override fun turnOn() {
-        super<camera>.turnOn()
-        super<phone>.turOn()
+        super<Camera>.turnOn()
+        super<Phone>.turnOn()
         println("Sistem operasi Smartphone berhasil booting.")
     }
 }
