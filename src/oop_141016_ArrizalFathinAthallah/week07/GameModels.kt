@@ -1,7 +1,8 @@
 package oop_141016_ArrizalFathinAthallah.week07
 
-enum class ItemRarity {
-    COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
+enum class ItemRarity(val itemChange: Int) {
+    COMMON(70), UNCOMMON(50), RARE(15), EPIC(5), LEGENDARY(1)
 }
 
-val dropChange: Int
+
+
