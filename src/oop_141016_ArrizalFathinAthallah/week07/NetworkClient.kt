@@ -1,6 +1,8 @@
 package oop_141016_ArrizalFathinAthallah.week07
 
 class NetworkClient private constructor(val url: String) {
+
+   companion object {
     const val BASE_URL = "https://api.column.ac.id"
 
     fun createClient(): NetworkClient {
