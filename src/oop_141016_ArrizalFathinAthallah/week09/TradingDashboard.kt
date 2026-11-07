@@ -51,4 +51,10 @@ fun main() {
         .toSet()
 
     println("Unique Trading Pairs: $uniquePairs")
+
+    println("\n=== CRYPTO TRADING DASHBOARD ===")
+
+    topPerformersString.forEach {
+        println(it)
+    }
 }
