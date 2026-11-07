@@ -45,4 +45,10 @@ fun main() {
         }
 
     println("Worst Performers: $worstPerformersString")
+
+    val uniquePairs = tradeHistory
+        .map { it.pair }
+        .toSet()
+
+    println("Unique Trading Pairs: $uniquePairs")
 }
