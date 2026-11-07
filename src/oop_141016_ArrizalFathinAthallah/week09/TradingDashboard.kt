@@ -11,4 +11,10 @@ fun main() {
     )
 
     println(tradeHistory)
+
+    val closedTrades = tradeHistory.filter {
+        it.status == "CLOSED"
+    }
+
+    println("Closed Trades: $closedTrades")
 }
