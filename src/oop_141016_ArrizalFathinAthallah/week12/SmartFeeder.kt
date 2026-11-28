@@ -38,5 +38,13 @@ fun main() {
         println("Terjadi kesalahan: ${e.message}")
     } finally {
         println("Siklus pengecekan dispenser pagi selesai.")
+
+        runCatching {
+            dispenseKibble(
+                requestedGram = 30,
+                availableGram = 1000,
+                isJammed = false
+            )
+        }
     }
 }
